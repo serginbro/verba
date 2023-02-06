@@ -1,0 +1,56 @@
+.elem  {
+	color: red;
+}
+.main + .div {
+    color: red;
+}
+#title {
+    color: red;
+}
+.title {
+	color: red;
+}
+.title{
+    color: purple;
+}
+.href{
+    color: darkred;
+}
+.nehref{    
+    color: lightseagreen;
+}
+title > b {
+	color: red;
+}
+a {
+	color: aqua;
+}
+a:hover {
+	text-decoration: none;
+}
+li:first-child {
+	color: red;
+}
+li:last-child {
+	color: green;
+}
+li:nth-child(3) {
+	color: red;
+}
+div {
+	border: 1px dashed black;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+h2:only-of-type {
+	color: red;
+}
+li:not(#elem) {
+	color: red;
+}
+li:not(:first-child) {
+	color: red;
+}
+li:not(:first-child,:last-child) {
+	color: red;
+}
